@@ -14,13 +14,15 @@ def primos():
     while qtdEncontrada < qtdTotal:
         for i in range (2, candPrimo):
             if candPrimo % i == 0:
-                ehPrimo == 0
+                ehPrimo = 0
                 break
         if ehPrimo == 1:
             primos = primos + str(candPrimo) + ","
             qtdEncontrada +=1
+            if qtdEncontrada % 20 == 0;
+                primos += "<br>"
         ehPrimo = 1
-    candPrimo += 1
+        candPrimo += 1
     return primos
     
     
