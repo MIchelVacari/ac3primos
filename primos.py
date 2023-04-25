@@ -9,6 +9,7 @@ def primos():
     primos = "1,2"
     candPrimo = 3 
     qtdEncontrada = 2
+    ehPrimo = 1
     
     while qtdEncontrada < qtdTotal:
         for i in range (2, candPrimo):
