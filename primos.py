@@ -19,7 +19,7 @@ def primos():
         if ehPrimo == 1:
             primos = primos + str(candPrimo) + ","
             qtdEncontrada +=1
-            if qtdEncontrada % 20 == 0;
+            if qtdEncontrada % 20 == 0:
                 primos += "<br>"
         ehPrimo = 1
         candPrimo += 1
